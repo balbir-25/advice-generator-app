@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Manrope";
+    background-color:hsl(218, 23%, 16%);
+    min-width: 1340px;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.75rem;
+  }
+
+  /* ===============================START MAIN AREA============================= */
+
+  .site{
+    padding: 6rem 20rem;
+  }
+
+  .advice{
+    padding: 50px;
+    background-color: hsl(217, 19%, 24%);
+    width: 38rem;
+    border-radius: 10px;
+  }
+
+  .advice-para{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: hsl(150, 100%, 66%);
+  }
+
+  .advice-h1{
+    margin-top: 20px;
+    color:hsl(193, 38%, 86%);
+    line-height: 45px;
+  }
+
+  .line{
+    margin-top: 50px;
+    width: 95%;
+  }
+
+  .btn{
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    margin-top: -70px;
+    margin-left: -100px;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    box-shadow: 0 0 50px hsl(150, 100%, 66%);
+  }
+
+  /* ===============================END MAIN AREA============================= */
+  /* =============================START FOOTER  AREA=========================== */
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    color: hsl(0, 100%, 67%);
+    background-color: black;
+    margin-top: 85px;
+  }
+  
+  .foot a {
+    text-decoration: none;
+    color: hsl(39, 100%, 56%);
+  }
+  
+  .foot a:hover {
+    color: hsl(300, 69%, 71%);
+  }
+  /* =============================END FOOTER  AREA=========================== */
+  /* ==============================START MEDIA QUERRY=========================== */
+
+  @media screen and (max-width:768px) {
+    body{
+        min-width: 768px;
+    }
+
+    .site{
+        padding: 2rem 5rem;
+    }
+
+    .btn{
+        margin-left: 0;
+        margin-top: -8%;
+    }
+  }
+
+  @media screen and (max-width:375px) {
+    body{
+        min-width: 375px;
+    }
+
+    .site{
+        padding: 2rem 1rem;
+    }
+
+    .advice{
+        width: 350px;
+        padding: 1rem;
+    }
+
+    .btn{
+        margin-left: 5%;
+    }
+
+    .line{
+        content: url(./images/pattern-divider-mobile.svg);
+    }
+  }
+  /* ==============================END MEDIA QUERRY=========================== */
