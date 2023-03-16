@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://github.com/balbir-25/advice-genrator-app)
-- Live Site URL:( https://balbir-25.github.io/advice-genrator-app/)
+- Solution URL:(https://github.com/balbir-25/advice-generator-app)
+- Live Site URL:( https://balbir-25.github.io/advice-generator-app/)
 
 ## My process
 
