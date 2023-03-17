@@ -123,6 +123,7 @@
 
     .line{
         content: url(./images/pattern-divider-mobile.svg);
+        margin-bottom: 40px;
     }
   }
   /* ==============================END MEDIA QUERRY=========================== */
